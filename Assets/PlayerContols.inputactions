@@ -1,0 +1,55 @@
+{
+    "name": "PlayerContols",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "8f156d7a-2b6a-43b3-8a65-f2ed7a07c73b",
+            "actions": [
+                {
+                    "name": "Movment",
+                    "type": "Button",
+                    "id": "71865823-5213-4975-8e55-872c952c8618",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Up Down",
+                    "id": "3491a9fd-b1d7-47d1-a676-c2b11cb91ff4",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movment",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "17f0bf19-d8a2-4192-a9fb-43536f729cac",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movment",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "3521d757-23f7-4ba0-84c0-9e7220480049",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movment",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
